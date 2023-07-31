@@ -1,0 +1,7 @@
+import projetoricardo.Empregado
+
+model {
+	Empregado empregado
+}
+
+json tmpl.empregado(empregado)

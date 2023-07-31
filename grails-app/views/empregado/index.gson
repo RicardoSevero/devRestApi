@@ -1,0 +1,8 @@
+import projetoricardo.Empregado
+
+model {
+	Iterable<Empregado> empregadoList
+}
+
+json tmpl.empregado(empregadoList ?: [])
+

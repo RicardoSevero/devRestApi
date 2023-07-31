@@ -1,0 +1,8 @@
+import projetoricardo.Departamento
+
+model {
+	Iterable<Departamento> departamentoList
+}
+
+json tmpl.departamento(departamentoList ?: [])
+

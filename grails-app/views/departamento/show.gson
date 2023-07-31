@@ -1,0 +1,7 @@
+import projetoricardo.Departamento
+
+model {
+	Departamento departamento
+}
+
+json tmpl.departamento(departamento)
